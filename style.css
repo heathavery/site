@@ -236,38 +236,6 @@ body {
     /* transform: rotate(0); */
 }
 
-.popup-close {
-    position: absolute;
-    right: -1rem;
-    top: -1rem;
-    width: 2rem;
-    height: 2rem;
-    font-size: 1.7rem;
-    font-weight: 400;
-    border-radius: 100%;
-    background-color: var(--bgColor);
-    z-index: 4;
-    color: var(--accentColor);
-    line-height: 1.8rem;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
-}
-
-@media (hover: hover) {
-    .popup-close:hover {
-        background-color: var(--accentColor);
-        color: var(--bgColor);
-    }
-}
-
-.popup-close:active {
-    background-color: var(--accentColor);
-    color: var(--bgColor);
-}
-
-
 /*-----------------------parallax-----------------------*/
 /* credits: https://www.youtube.com/watch?v=aywzn9cf-_U */
 #stars1 {
