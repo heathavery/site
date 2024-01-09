@@ -12,9 +12,10 @@
 body {
     margin: 0;
     padding: 0;
-    min-height: 150vh;
+    min-height: 100vh;
     font-family: var(--font);
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
+    background-size: 150vh;
     opacity: 0;
     animation: 1s ease-out .5s 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
