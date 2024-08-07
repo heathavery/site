@@ -51,8 +51,8 @@ body {
     /* background: linear-gradient(90deg, #f00, #0f0, #00f); */
     background: var(--rainbow);
     background-repeat: round;
-    background-size: 80%;
-    animation: animate linear 5s infinite forwards;
+    background-size:80%;
+    animation: animate linear 600s infinite forwards;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
