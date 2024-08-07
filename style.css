@@ -3,7 +3,7 @@
 :root {
     --bgColor: #223344;
     --bgColor2: #090a0f;
-    --rainbow: linear-gradient(90deg, #f00, rgb(255, 145, 0), #ff0, #0f0, #0aa, #00f, rgb(137, 0, 216), #f00);
+    --rainbow: linear-gradient(90deg, #f00, rgb(255, 145, 0), #ff0, #0f0, #0aa, #75d5eb, #fdafc7, #fff, #fdafc7, #75d5eb, #00f, rgb(137, 0, 216), #f00);
     --accentColor: #FFF;
     --font: 'Karla', sans-serif;
     --delay: 3s;
@@ -51,8 +51,8 @@ body {
     /* background: linear-gradient(90deg, #f00, #0f0, #00f); */
     background: var(--rainbow);
     background-repeat: round;
-    background-size:80%;
-    animation: animate linear 600s infinite forwards;
+    background-size: 80%;
+    animation: animate linear 30s infinite forwards;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
