@@ -122,6 +122,11 @@ body {
     color: var(--bgColor);
 }
 
+.svg {
+    display: block;
+    fill: #fff;
+}
+
 #hashtag {
     position: relative;
     padding-bottom: 20px;
